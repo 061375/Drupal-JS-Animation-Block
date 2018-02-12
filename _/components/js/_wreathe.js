@@ -7,14 +7,15 @@ window.onload = function() {
   
     'use strict';
     
-    console.log('Wreathe');
-    $w.add_object_single(
-        360,
-        particle,{},
-        document.getElementById('homepage_animation'),
-        W,H
-    );
-    $w.loop(true);  
+    if (document.getElementById('homepage_animation') != null) {
+        $w.add_object_single(
+            360,
+            particle,{},
+            document.getElementById('homepage_animation'),
+            W,H
+        );
+        $w.loop(true);
+    } 
 }
 var particle = function(o) {
   
