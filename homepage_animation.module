@@ -1,0 +1,4 @@
+<?php
+function homepage_animation_preprocess_page(&$variables) {
+  $variables['#attached']['library'][] = 'homepage_animation/homepage_animation_lib';
+}

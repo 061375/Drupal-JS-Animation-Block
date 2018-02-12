@@ -1,0 +1,9 @@
+type: module
+name: Homepage Animation
+description: 'Displays a Javascript animation on the homepage'
+help: ''
+new_revision: false
+display_submitted: true
+preview_mode: 1
+status: true
+langcode: en

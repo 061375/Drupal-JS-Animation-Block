@@ -1,0 +1,8 @@
+homepage_animation_lib:
+  version: 1.x
+  css:
+    layout:
+     css/style.css: {}
+  js:
+    js/_/components/js/wes.mantooth.js: {}
+    js/_/components/js/_wreathe.js: {}

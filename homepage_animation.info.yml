@@ -1,0 +1,6 @@
+name: Homepage Animation
+description: Displays various javascript animation on the homepage
+package: Jeremy
+type: module
+version: 1.0
+core: 8.x

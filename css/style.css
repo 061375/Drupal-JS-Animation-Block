@@ -1,0 +1,16 @@
+/* line 1, ../_/components/sass/style.scss */
+#homepage_animation {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6d673e+0,423a25+100 */
+  background: #6d673e;
+  /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, #6d673e 0%, #423a25 100%);
+  /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover, #6d673e 0%, #423a25 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center, #6d673e 0%, #423a25 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d673e', endColorstr='#423a25',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
