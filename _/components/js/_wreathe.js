@@ -3,21 +3,23 @@ const W = window.innerWidth,
       hW = (W/2),
       hH = (H/2),
       CR = hH - 100;
-window.onload = function() {
-  
-    'use strict';
-    
-    if (document.getElementById('homepage_animation') != null) {
-        $w.add_object_single(
-            360,
-            particle,{},
-            document.getElementById('homepage_animation'),
-            W,H
-        );
-        $w.loop(true);
-    } 
+if (document.getElementById('homepage_animation') != null) {
+    window.onload = function() {
+      
+        'use strict';
+        
+        console.log('Wreathe version 1.0.4');
+         
+            $w.add_object_single(
+                360,
+                Wreathe,{},
+                document.getElementById('homepage_animation'),
+                W,H
+            );
+            $w.loop(true);
+    }
 }
-var particle = function(o) {
+var Wreathe = function(o) {
   
     this.i = o.i;
     
@@ -42,7 +44,7 @@ var particle = function(o) {
     
     $w.canvas.circle(this.i,this.x,this.y,this.r,this.color);
 }
-particle.prototype.loop = function() {
+Wreathe.prototype.loop = function() { 
   
     this.count++;
     
