@@ -5,4 +5,4 @@ homepage_animation_lib:
      css/style.css: {}
   js:
     js/_/components/js/wes.mantooth.js: {}
-    js/_/components/js/_wreathe.js: {}
+    js/_/components/js/script.js: {}

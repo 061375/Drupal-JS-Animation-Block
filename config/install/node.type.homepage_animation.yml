@@ -1,6 +1,6 @@
 type: module
 name: Homepage Animation
-description: 'Displays a Javascript animation on the homepage'
+description: 'Displays a Javascript animation in a block location ideally the homepage'
 help: ''
 new_revision: false
 display_submitted: true

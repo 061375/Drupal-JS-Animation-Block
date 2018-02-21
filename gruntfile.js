@@ -4,22 +4,11 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-compass');
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
     grunt.initConfig({
-        /*uglify: {
-			options: {
-			sourceMap:false,
-			sourceMapName: '_/components/jsmap/script.map'
-			},
-			my_target: {
-			  files: {
-			  'js/script.js':['_/components/jquery/jquery.js','_/components/js/*.js'] 
-			  }
-			}
-        },*/
 		uglify: {
             build: {
               files: [{
                   expand: true,
-                  src: '_/components/js/*.js',
+                  src: ['_/components/js/*.js','_/components/js/anims/*.js'],
                   dest: 'js/',
                   cwd: '.'
               }]
